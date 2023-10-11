@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 59, 59);
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#Home{
+    height: auto;
+    padding: 130px 30px 30px;
+    background-color: rgba(120, 14, 14, 0.397);
+}
+
+#About img{
+    padding-right: 30px;
+    height: auto;
+    width: 200px;
+    float: left;
+}
+#About{
+    height: auto;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#Skills{
+    height: auto;
+    padding: 30px;
+    background-color: rgba(120, 14, 14, 0.397);
+}
+
+#Education{
+    height: auto;
+    padding: 30px;
+}
+
+#Experience{
+    height: auto;
+    padding: 30px;
+    background-color: rgba(120, 14, 14, 0.397);
+}
+#Work{
+    height: auto;
+    padding: 30px;
+}
+
+#Blog{
+    height: auto;
+    padding: 30px;
+    background-color: rgba(120, 14, 14, 0.397);
+}
+#Contact{
+    height: auto;
+    padding: 30px;
+}
+#Contact a{
+    color: black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
